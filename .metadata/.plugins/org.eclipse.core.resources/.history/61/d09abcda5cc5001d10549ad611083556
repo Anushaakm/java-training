@@ -1,0 +1,5 @@
+package com.anu.fi;
+
+public interface fs {
+
+}

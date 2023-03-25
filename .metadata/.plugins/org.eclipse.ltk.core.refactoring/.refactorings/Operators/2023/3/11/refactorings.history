@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Operators/src/com/hello/Arraymain.java&apos; to &apos;FindNumArraymain.java&apos;" description="Rename resource &apos;Arraymain.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/hello/Arraymain.java" name="FindNumArraymain.java" stamp="1678683329177" updateReferences="true"/>
+</session>

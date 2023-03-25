@@ -1,0 +1,15 @@
+package com.hello;
+
+public class SDRunner {
+
+	public static void main(String[] args) { 
+			double[] input={5,10,15,20,25};
+			double n=5,sum=0,mean;
+			for(int i=0;i<n;i++) 
+			{
+				sum=sum+input[i];
+			}
+			
+	}
+
+}

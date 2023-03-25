@@ -1,0 +1,30 @@
+package com.anu.collections.types;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
+public class CharacterCount {
+	 public String countChars(String ip) {
+		 
+		 ArrayList<Character> al=new ArrayList<>();
+	        // put each and every character in arraylist
+	        for(int i=0;i<ip.length();i++){
+	            char ch=ip.charAt(i);
+	            if(!Character.isWhitespace(ch)){
+	                al.add(ch);
+	            }
+	        }
+		 
+		 Map<Character, Integer> hm = new HashMap<>();
+		 for(int i=0;i<al.size();i++){
+	            hm.putIfAbsent(al.get(i),Collections.frequency(al,al.get(i)));  
+	        }
+	        
+		 
+		 
+		 
+	        return null;
+	    }
+}

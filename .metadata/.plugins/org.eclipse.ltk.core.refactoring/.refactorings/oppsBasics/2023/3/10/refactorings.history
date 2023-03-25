@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;oppsBasics/src/com/anu/topics/inheritance/Account.java&apos; to &apos;AccountRunner.java&apos;" description="Rename resource &apos;Account.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/anu/topics/inheritance/Account.java" name="AccountRunner.java" stamp="1678516492059" updateReferences="true"/>
+</session>

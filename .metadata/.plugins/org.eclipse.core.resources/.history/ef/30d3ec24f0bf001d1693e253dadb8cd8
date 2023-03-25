@@ -1,0 +1,10 @@
+package com.anu.StringDateWrapper.String;
+
+public class Runner {
+    public static void main(String[] args) throws Exception {
+        System.out.println("🔥 String, Date, Warapper 🔥");
+
+        StringDemo sd = new StringDemo();
+        sd.demo2();
+    }
+}

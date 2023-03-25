@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;String/src/com/anu/String&apos; to &apos;StringDateWrapper&apos;" description="Rename resource &apos;String&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/anu/String" name="StringDateWrapper" stamp="1678520718373" updateReferences="true"/>
+</session>

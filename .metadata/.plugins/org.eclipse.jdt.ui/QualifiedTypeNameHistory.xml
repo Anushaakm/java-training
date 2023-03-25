@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.hello.Shap"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="com.anu.exceptionHandling.Custom.UserInputting"/>
+    <fullyQualifiedTypeName name="com.anu.exceptionHandling.Custom.InvalidAgeException"/>
+    <fullyQualifiedTypeName name="com.anu.exceptionHandling.Custom.WrongFileFormatException"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.anu.codingQuestions.InstaceFinding.TypeChecker"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="com.anu.codingQuestions.Cart.types.Item"/>
+    <fullyQualifiedTypeName name="com.anu.codingQuestions.Cart.types.User"/>
+    <fullyQualifiedTypeName name="com.anu.codingQuestions.Cart.types.Cart"/>
+    <fullyQualifiedTypeName name="com.anu.codingQuestions.Cart.Custom.ItemNotFoundException"/>
+    <fullyQualifiedTypeName name="com.anu.cart.Item"/>
+    <fullyQualifiedTypeName name="com.anu.cart.item.Item"/>
+    <fullyQualifiedTypeName name="com.anu.codingQuestions.Cart.Custom.CartFullException"/>
+    <fullyQualifiedTypeName name="com.anu.cart.cartDto.Cart"/>
+    <fullyQualifiedTypeName name="com.anu.cart.user.User"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.anu.cart.user.Custom.CartFullException"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.anu.cart.user.Custom.ItemNotFoundException"/>
+    <fullyQualifiedTypeName name="com.anu.cart.item.itemMenu"/>
+</qualifiedTypeNameHistroy>
