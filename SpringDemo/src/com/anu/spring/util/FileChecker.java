@@ -1,5 +1,8 @@
 package com.anu.spring.util;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class FileChecker  {
 	 private FileUtil util;
 
