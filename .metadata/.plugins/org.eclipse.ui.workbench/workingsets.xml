@@ -6,9 +6,6 @@
 <item elementID="=String" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=SpringDemo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Spring-AOP" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=spring-mvc" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Spring-mvc-demo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-mvc" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1676915032894_2" label="Window Working Set" name="Aggregate for window 1676915032894"/>
 <mruList name="Spring"/>
