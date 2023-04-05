@@ -1656,3 +1656,27 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2023-04-04 12:26:59,946 [Worker-28: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: spring-mvc:spring-mvc:0.0.1-SNAPSHOT @ C:\Users\Dell\Downloads\spring-mvc\pom.xml.
 2023-04-04 12:27:47,021 [Worker-23: Launching Executing install in C__Users_Dell_Downloads_spring-mvc] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Dell\Downloads\spring-mvc
 2023-04-04 12:27:47,021 [Worker-23: Launching Executing install in C__Users_Dell_Downloads_spring-mvc] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dstyle.color=always install
+2023-04-04 14:46:36,855 [Worker-3: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/spring-mvc/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:852) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$26(ProjectRegistryManager.java:1037) ~[na:na]
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220) ~[na:na]
+	at java.base/java.util.Collections$SynchronizedMap.computeIfAbsent(Collections.java:2760) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$25(ProjectRegistryManager.java:1036) ~[na:na]
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1054) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1036) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:269) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:241) ~[org.eclipse.m2e.core.ui_2.0.0.20220726-0935.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709) ~[na:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.100.v20220817-1539.jar:na]
+2023-04-04 15:02:57,212 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-05 15:06:58,982 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ShoppingCart:com.anu:0.0.1-SNAPSHOT @ C:\Users\Dell\Desktop\Axis-java\java-training\ShoppingCart\pom.xml.
+2023-04-05 15:06:58,984 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ShoppingCart:com.anu:0.0.1-SNAPSHOT @ C:\Users\Dell\Desktop\Axis-java\java-training\ShoppingCart\pom.xml.
+2023-04-05 15:07:03,182 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-05 15:07:03,183 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dell\Desktop\Axis-java\java-training\ShoppingCart\src\main\resources
+2023-04-05 15:07:03,189 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-05 15:07:03,190 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Dell\Desktop\Axis-java\java-training\ShoppingCart\src\test\resources
+2023-04-05 15:07:04,076 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ShoppingCart:com.anu:0.0.1-SNAPSHOT @ C:\Users\Dell\Desktop\Axis-java\java-training\ShoppingCart\pom.xml.
+2023-04-05 15:07:05,926 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringDemo:com.anu:0.0.1-SNAPSHOT @ C:\Users\Dell\Desktop\Axis-java\java-training\SpringDemo\pom.xml.
+2023-04-05 15:07:06,278 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.p.r.ProjectRegistryRefreshJob - org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob was canceled
